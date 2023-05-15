@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Musical Shop -- Venta de instrumentos musicales</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--para los estilos-->
+    <link rel="stylesheet" href="estilo.css">
+    <!--es para los iconos-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+    <header class="main-header"> <!--Es para la parte principal de arriba de la pagina-->
+        <div class="container container--flex">
+            <div class="main-header__container">
+                <h1 class="main-header__title">Musical Shop</h1>
+                <!--menu-->
+                <span class="icon-menu" id="btn-menu"><i class="fas fa-bars"></i></span>
+                <nav class="main-nav" id="main-nav"><!--menu de opciones-->
+                    <ul class="menu">
+                        <li class="menu__item"><a href="principal.html" class="menu__link">HOME</a></li>
+                        <li class="menu__item"><a href="Nosotros.html" class="menu__link">NOSOTROS</a></li>
+                        <li class="menu__item"><a href="Productos.html" class="menu__link">PODUCTOS</a></li>
+                        <li class="menu__item"><a href="Contacto.html" class="menu__link">CONTACTO</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="main-header__container">
+                <span class="main-header__txt">Necesita ayuda o tiene alguna duda</span>
+                <p class="main--header__txt">Llame al 5612994880</p>
+            </div>
+            <div class="main-header__container">
+                <i class="fas fa-user"></i> <!--icono-->
+                <a href="" class="main-header__btn">Mi carrito<i class="fas fa-shopping-cart"></i></a><!--carrito de compras-->
+                <input type="search" class="main-header__input" placeholder="Buscar Productos"><i class="fas fa-search"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container"> <!--Lenado de articulos-->
+            <h2 class="main__title">Nuevos Articulos para ti</h2>
+            <section class="container-products">
+                <!--Saxofones-->
+                <div class="product">
+                    <img src="imagenes/Saxofon1.jpg" alt="Saxofon1" class="product__img" >
+                    <div class="product__desription">
+                        <h3 class="product__title">JodyBlues Saxofon tenor Bb JTS-802</h3>
+                        <span class="product__price">$13,308</span>
+                    </div>
+                    <i  class="product__icon fas fa-cart-plus"></i>
+                </div>
+                <div class="product">
+                    <img src="imagenes/Saxofon2jpg" alt="Saxofon1" class="product__img" >
+                    <div class="product__desription">
+                        <h3 class="product__title">Jean Paul USA AS-4000SP</h3>
+                        <span class="product__price">$17,596</span>
+                    </div>
+                    <i  class="product__icon fas fa-cart-plus"></i>
+                </div>
+                <div class="product">
+                    <img src="imagenes/Saxofon3.jpg" alt="Saxofon1" class="product__img" >
+                    <div class="product__desription">
+                        <h3 class="product__title">GLO,RY saxofón alto plano con 11 lenguetas, 8 almohadillas</h3>
+                        <span class="product__price">$8,207</span>
+                    </div>
+                    <i  class="product__icon fas fa-cart-plus"></i>
+                </div>
+
+                <!--Violines-->
+                <div class="product">
+                    <img src="imagenes/ViolinAcus.jpg" alt="ViolinAcus" class="product__img" >
+                    <div class="product__desription">
+                        <h3 class="product__title">Zonar Violin 4/4 Acustico Profesional con estuche</h3>
+                        <span class="product__price">$2,789</span>
+                    </div>
+                    <i  class="product__icon fas fa-cart-plus"></i>
+                </div>
+                <div class="product">
+                    <img src="imagenes/ViolinElec.jpg" alt="ViolinAcus" class="product__img" >
+                    <div class="product__desription">
+                        <h3 class="product__title">ZJRLY Violin 4/4 Rosa</h3>
+                        <span class="product__price">$2,789</span>
+                    </div>
+                    <i  class="product__icon fas fa-cart-plus"></i>
+                </div>
+                <div class="product">
+                    <img src="imagenes/ViolinElec2.jpg" alt="ViolinAcus" class="product__img" >
+                    <div class="product__desription">
+                        <h3 class="product__title">Violin Electrico de madera 4/4</h3>
+                        <span class="product__price">$7,990</span>
+                    </div>
+                    <i  class="product__icon fas fa-cart-plus"></i>
+                </div>
+                <div class="product">
+                    <img src="imagenes/ViolinRos.jpg" alt="ViolinAcus" class="product__img" >
+                    <div class="product__desription">
+                        <h3 class="product__title">ZJRLY Violin electrico silecioso con funda y audifonos de lazo de colofonia</h3>
+                        <span class="product__price">$2,780</span>
+                    </div>
+                    <i  class="product__icon fas fa-cart-plus"></i>
+                </div>
+
+
+                <!--Clarinetes-->
+                <div class="product">
+                    <img src="imagenes/Clarinete1.jpg" alt="Clarinete4" class="product__img" >
+                    <div class="product__desription">
+                        <h3 class="product__title">Vincenzo clarinete 17 llaves tipo Baquelita</h3>
+                        <span class="product__price">$3,411</span>
+                    </div>
+                    <i  class="product__icon fas fa-cart-plus"></i>
+                </div>
+                <div class="product">
+                    <img src="imagenes/Clarinete2.jpg" alt="Clarinete4" class="product__img" >
+                    <div class="product__desription">
+                        <h3 class="product__title">Silvertone clarinete negro Dorado 520G</h3>
+                        <span class="product__price">$7,808</span>
+                    </div>
+                    <i  class="product__icon fas fa-cart-plus"></i>
+                </div>
+                <div class="product">
+                    <img src="imagenes/Clarinete3.jpg" alt="Clarinete4" class="product__img" >
+                    <div class="product__desription">
+                        <h3 class="product__title">Yamaha  clarinete Alto intermedio de granadilla</h3>
+                        <span class="product__price">$206,466</span>
+                    </div>
+                    <i  class="product__icon fas fa-cart-plus"></i>
+                </div>
+                <div class="product">
+                    <img src="imagenes/Clarinete4.jpg" alt="Clarinete4" class="product__img" >
+                    <div class="product__desription">
+                        <h3 class="product__title">Jupiter  Clarinete bajo con estuche</h3>
+                        <span class="product__price">$46,246</span>
+                    </div>
+                    <i  class="product__icon fas fa-cart-plus"></i>
+                </div>
+
+
+                <!--Guitarras-->
+                <div class="product">
+                    <img src="imagenes/GuitarraElec.jpg" alt="GuitarraElec" class="product__img" >
+                    <div class="product__desription">
+                        <h3 class="product__title">Guitarra Electrrica See Thru Purple Sunburst</h3>
+                        <span class="product__price">$20,986</span>
+                    </div>
+                    <i  class="product__icon fas fa-cart-plus"></i>
+                </div>
+                <div class="product">
+                    <img src="imagenes/GuitarraAcus.jpg" alt="GuitarraElec" class="product__img" >
+                    <div class="product__desription">
+                        <h3 class="product__title">Guitarra clásica acústica Modelo 9 mtc negra</h3>
+                        <span class="product__price">$999</span>
+                    </div>
+                    <i  class="product__icon fas fa-cart-plus"></i>
+                </div>
+                <div class="product">
+                    <img src="imagenes/GuitarraClas.jpg" alt="GuitarraElec" class="product__img" >
+                    <div class="product__desription">
+                        <h3 class="product__title">Guitarra clásica Española color negro y azul satinada</h3>
+                        <span class="product__price">$2,986</span>
+                    </div>
+                    <i  class="product__icon fas fa-cart-plus"></i>
+                </div>
+                <div class="product">
+                    <img src="imagenes/guitarraElec.jpg" alt="GuitarraElec" class="product__img" >
+                    <div class="product__desription">
+                        <h3 class="product__title">Guitarra Electrrica Jackson JS Series Dink Minion JS1X</h3>
+                        <span class="product__price">$5,499</span>
+                    </div>
+                    <i  class="product__icon fas fa-cart-plus"></i>
+                </div>
+            </section>
+        </div>
+
+
+
+
+
+        <div class="footer__section">
+            <h2 class="footer__title">Locacion:</h2>
+            <p class="footer__txt">Av. Te 950, Granjas México, Iztacalco, 08400, CDMX</p>
+            <h2 class="footer__title">Contacto</h2>
+            <p class="footer__txt">Phone : +52 5612994880</p>
+            <p class="footer__txt">Email : lluridia64@hotmail.com</p>
+          </div>
+          <div class="footer__section">
+            <h2 class="footer__title">Quick Links</h2>
+            <a href="" class="footer__link">Home</a>
+            <a href="" class="footer__link">Nosotros</a>
+            <a href="" class="footer__link">Error</a>
+            <a href="" class="footer__link">Comprar</a>
+            <a href="https//wa.me/5612994880" class="footer__link">Contactanos</a>
+          </div> 
+          <div class="footer__section">
+              <h2 class="footer__title">Registrese para recibir ofertas</h2>
+              <p class="footer__txt">Al suscribirse a nuestra lista de correo, siempre recibirá nuestras últimas noticias y actualizaciones.</p>
+              <input type="email" class="footer__input" placeholder="Enter your email">
+            </div>
+            <p class="copy">© 2022 Goggles. All Rights Reserved | Design by W3Layouts</p>
+          </footer>
+          <script src="slider2.js"></script>
+  </body>
+  </html>

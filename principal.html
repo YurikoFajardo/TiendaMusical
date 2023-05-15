@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Musical Shop -- Venta de instrumentos musicales</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--para los estilos-->
+    <link rel="stylesheet" href="estilo.css">
+    <!--es para los iconos-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+    <header class="main-header"> <!--Es para la parte principal de arriba de la pagina-->
+        <div class="container container--flex">
+            <div class="main-header__container">
+                <h1 class="main-header__title">Musical Shop</h1>
+                <!--menu-->
+                <span class="icon-menu" id="btn-menu"><i class="fas fa-bars"></i></span>
+                <nav class="main-nav" id="main-nav"><!--menu de opciones-->
+                    <ul class="menu">
+                        <li class="menu__item"><a href="principal.html" class="menu__link">HOME</a></li>
+                        <li class="menu__item"><a href="Nosotros.html" class="menu__link">NOSOTROS</a></li>
+                        <li class="menu__item"><a href="Productos.html" class="menu__link">PODUCTOS</a></li>
+                        <li class="menu__item"><a href="Contacto.html" class="menu__link">CONTACTO</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="main-header__container">
+                <span class="main-header__txt">Necesita ayuda o tiene alguna duda</span>
+                <p class="main--header__txt">Llame al 5612994880</p>
+            </div>
+            <div class="main-header__container">
+                <i class="fas fa-user"></i> <!--icono-->
+                <a href="" class="main-header__btn">Mi carrito<i class="fas fa-shopping-cart"></i></a><!--carrito de compras-->
+                <input type="search" class="main-header__input" placeholder="Buscar Productos"><i class="fas fa-search"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <!--slider-->
+    <div class="container-slider">
+        <div class="slider" id="slider">
+          <div class="slider__section">
+            <img src="imagenes/imagen1.jpg" alt="" class="slider__img">
+            <div class="slider__content">
+              <p class="slider__txt">Venta de Invierno 50% off</p>
+              <a href="Productos.html" class="btn-shop">SHOP NOW</a>
+            </div>
+          </div>
+          <div class="slider__section">
+            <img src="imagenes/imagen2.jpg"" class="slider__img">
+            <div class="slider__content">
+              <p class="slider__txt">Venta de Invierno 50% off</p>
+              <a href="Productos.html" class="btn-shop">SHOP NOW</a>
+            </div>
+          </div>
+          <div class="slider__section">
+            <img src="imagenes/imagen3.jpg" alt="" class="slider__img">
+            <div class="slider__content">
+              <p class="slider__txt">Venta de Invierno 50% off</p>
+              <a href="Productos.html" class="btn-shop">SHOP NOW</a>
+            </div>
+          </div>
+          <div class="slider__section">
+            <img src="imagenes/imagen4.jpg" alt="" class="slider__img">
+            <div class="slider__content">
+              <p class="slider__txt">Venta de Invierno</p>
+              <a href="Productos.html" class="btn-shop">SHOP NOW</a>
+            </div>
+          </div>
+        </div>
+        <div class="slider__btn slider__btn--right" id="btn-right">&#62;</div>
+        <div class="slider__btn slider__btn--left" id="btn-left">&#60;</div>
+    </div>
+    
+    <!--Fin del slider-->
+
+    <main class="main">
+        <div class="container"> <!--Lenado de articulos-->
+            <h2 class="main__title">Nuevos Articulos para ti</h2>
+            <section class="container-products">
+                <div class="product">
+                    <img src="imagenes/Bajo1.jpg" alt="Bajo1" class="product__img">
+                    <div class="product__desription">
+                        <h3 class="product__title">Kramer -- Bajo ejerctico D-1 Satin Black</h3>
+                        <span class="product__price">$10,899</span>
+                    </div>
+                    <i  class="product__icon fas fa-cart-plus"></i>
+                </div>
+                <div class="product">
+                    <img src="imagenes/Bateria1.jpg" alt="Bateria1" class="product__img">
+                    <div class="product__desription">
+                        <h3 class="product__title"> Bateria Acustica DRUMCO OBELIX-JR-BL</h3>
+                        <span class="product__price">$4,765</span>
+                    </div>
+                    <i  class="product__icon fas fa-cart-plus"></i>
+                </div>
+                <div class="product">
+                    <img src="imagenes/Clarinete1.jpg" alt="Clarinete1" class="product__img">
+                    <div class="product__desription">
+                        <h3 class="product__title">Vincenzo Clarinete 17 llaves  tipo Baquelita</h3>
+                        <span class="product__price">$3,411</span>
+                    </div>
+                    <i  class="product__icon fas fa-cart-plus"></i>
+                </div>
+                <div class="product">
+                    <img src="imagenes/GuitarraClas.jpg" alt="Guitarra Clasica" class="product__img" >
+                    <div class="product__desription">
+                        <h3 class="product__title">Guitarra clasica Española</h3>
+                        <span class="product__price">$1,499</span>
+                    </div>
+                    <i  class="product__icon fas fa-cart-plus"></i>
+                </div>
+                <div class="product">
+                    <img src="imagenes/Saxofon1.jpg" alt="Saxofon1" class="product__img" >
+                    <div class="product__desription">
+                        <h3 class="product__title">JodyBlues Saxofon tenor Bb JTS-802</h3>
+                        <span class="product__price">$13,308</span>
+                    </div>
+                    <i  class="product__icon fas fa-cart-plus"></i>
+                </div>
+                <div class="product">
+                    <img src="imagenes/ViolinAcus.jpg" alt="ViolinAcus" class="product__img" >
+                    <div class="product__desription">
+                        <h3 class="product__title">Zonar Violin 4/4 Acustico Profesional con estuche</h3>
+                        <span class="product__price">$2,789</span>
+                    </div>
+                    <i  class="product__icon fas fa-cart-plus"></i>
+                </div>
+                <div class="product">
+                    <img src="imagenes/Clarinete4.jpg" alt="Clarinete4" class="product__img" >
+                    <div class="product__desription">
+                        <h3 class="product__title">Jupiter  Clarinete bajo con estuche</h3>
+                        <span class="product__price">$46,246</span>
+                    </div>
+                    <i  class="product__icon fas fa-cart-plus"></i>
+                </div>
+                <div class="product">
+                    <img src="imagenes/GuitarraElec.jpg" alt="GuitarraElec" class="product__img" >
+                    <div class="product__desription">
+                        <h3 class="product__title">Guitarra Electrrica See Thru Purple Sunburst</h3>
+                        <span class="product__price">$20,986</span>
+                    </div>
+                    <i  class="product__icon fas fa-cart-plus"></i>
+                </div>
+            </section>
+        </div>
+
+        <!--TESTIMONIOS-->
+        <section class="container__testimonials">
+            <h2 class="section__title">Testimonios</h2>
+            <h3 class="testimonial__title">Ana Maria</h3>
+            <p class="testimonial__txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Voluptatem amet et velit, nisi eum dolor tempore consequatur blanditiis quae quibusdam 
+            sequi. Sint illum temporibus numquam voluptate maiores praesentium a enim.</p>
+        </section>
+
+        <div class="container-editor">
+            <div class="editor__item">
+                <img src="imagenes/banner1.jpg" alt="editor_pick" class="editor__img">
+                <p class="editor__circle">Expresa tu propio estilo</p>
+            </div>
+            <div class="editor__item">
+                <img src="imagenes/banner4.jpg" alt="editor_pick" class="editor__img">
+                <p class="editor__circle">Expresa tu propio estilo</p>
+            </div>
+        </div>
+          <section class="container-tips">
+            <div class="tip">
+              <i class="far fa-hand-paper"></i> 
+              <h2 class="tip__title">Grado de Satisfaccion</h2>
+              <p class="tip__txt">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit</p>
+              <a href="Productos.html" class="btn-shop">SHOP NOW</a>
+            </div>
+            <div class="tip">
+             <i class="fas fa-rocket"></i>
+              <h2 class="tip__title">Compras rapidas</h2>
+              <p class="tip__txt">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+              <a href="Productos.html" class="btn-shop">SHOP NOW</a>
+            </div>
+            <div class="tip">
+              <i class="fas fa-cog"></i>
+              <h2 class="tip__title">Envio Flash</h2>
+              <p class="tip__txt">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+              <a href="Productos.html" class="btn-shop">SHOP NOW</a>
+            </div>
+          </section>
+    </main>
+    <footer class="main-footer">
+        <div class="footer__section">
+          <h2 class="footer__title">Nosootros</h2>
+          <p class="footer__txt">Somos una Empresa dedicada a vender Instrumentos de alta calidad, brindando la seguridad a cada 
+            uno de nuestros clientes para salisfacer sus preferencias, somos la empreza con mejor calidad en instrumentos desde 1989
+          </p>
+        </div>
+        <div class="footer__section">
+          <h2 class="footer__title">Locacion:</h2>
+          <p class="footer__txt">Av. Te 950, Granjas México, Iztacalco, 08400, CDMX</p>
+          <h2 class="footer__title">Contacto</h2>
+          <p class="footer__txt">Phone : +52 5612994880</p>
+          <p class="footer__txt">Email : lluridia64@hotmail.com</p>
+        </div>
+        <div class="footer__section">
+          <h2 class="footer__title">Quick Links</h2>
+          <a href="" class="footer__link">Home</a>
+          <a href="" class="footer__link">Nosotros</a>
+          <a href="" class="footer__link">Error</a>
+          <a href="" class="footer__link">Comprar</a>
+          <a href="https//wa.me/qr/VMSN4QRWMOYUH1" class="footer__link">Contactanos</a>
+        </div> 
+        <div class="footer__section">
+            <h2 class="footer__title">Registrese para recibir ofertas</h2>
+            <p class="footer__txt">Al suscribirse a nuestra lista de correo, siempre recibirá nuestras últimas noticias y actualizaciones.</p>
+            <input type="email" class="footer__input" placeholder="Enter your email">
+          </div>
+          <p class="copy">© 2022 Goggles. All Rights Reserved | Design by W3Layouts</p>
+        </footer>
+        <script src="slider2.js"></script>
+</body>
+</html>
